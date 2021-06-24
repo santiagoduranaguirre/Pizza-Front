@@ -16,7 +16,7 @@
     justify-content: space-evenly;
 }
 
-main {
+.mainMiddle {
     display: flex;
     background-color: #E5E5E5;
 }
@@ -48,7 +48,37 @@ main {
     display: flex;
 }
 
-.podium img {
+.pizzaFallingImg {
     width: 92px;
     height: 129px;
+    display: flex;
+}
+
+.pizzaList {
+    justify-content: flex-end;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+footer button {
+    background-color: #222222;
+    border-style: hidden;
+    padding: 12px;
+    color: white;
+    margin-left: 20px;
+}
+
+footer img {
+    display: flex;
+    width: 212px;
+    height: 80px;
 }
