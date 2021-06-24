@@ -42,6 +42,9 @@
 
 .title {
     color: red;
+    position: relative;
+    left: 15px;
+    top: 15px;
 }
 
 .title span {
@@ -50,20 +53,30 @@
 
 .podium {
     background-color: white;
-    display: flex;
+    position: relative;
+}
+
+.titleTwo {
+    color: red;
+    position: relative;
+    left: 150px;
+    top: 35px;
 }
 
 .pizzaFallingImg {
     width: 92px;
     height: 129px;
     display: flex;
+    position: relative;
+    left: 325px;
+    bottom: 65px;
 }
 
 .pizzaList {
     justify-content: flex-end;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+    position: relative;
+    top: 70px;
+    left: 65px;
 }
 
 
